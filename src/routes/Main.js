@@ -11,6 +11,7 @@ import SummarizaDoc from "pages/customer/AiAssistChat/SummarizaDoc";
 import Aid from "pages/Essay/Aid";
 import Essaydesc from "pages/Essay/Essaydesc";
 import Selpackage from "pages/Essay/Selpackage";
+import Essaykeypoint from "pages/Essay/Essaykeypoint";
 
 function Main() {
   return (
@@ -28,6 +29,7 @@ function Main() {
             <Route path='/Aid' element={<Aid />} />
             <Route path='/Essaydesc' element={<Essaydesc />} />
             <Route path='/Selpackage' element={<Selpackage />} />
+            <Route path='/Essaykeypoint' element={<Essaykeypoint />} />
           </Routes>
         </section>
       </main>
